@@ -4,6 +4,7 @@
  */
 package petfinder;
 
+
 /**
  *
  * @author Micha
@@ -15,6 +16,8 @@ public class PetFinder {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //HOLA MUNDO
+        System.out.println("Hola, mundo");
     }
     
 }
