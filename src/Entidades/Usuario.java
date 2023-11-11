@@ -10,41 +10,60 @@ package Entidades;
  * @author piero
  */
 public class Usuario {
-    private String userid;
-    private String contraseña;
-    private String email;
+    int id;
+    String nombre;
+    String apellido;
+    String dni;
+    String correo;
+    String password;
 
-    public Usuario(String userid, String contraseña, String email) {
-        this.userid = userid;
-        this.contraseña = contraseña;
-        this.email = email;
-    }
-    
-     
-    public String getUserid() {
-        return userid;
+    public int getId() {
+        return id;
     }
 
-    public void setUserid(String userid) {
-        this.userid = userid;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getContraseña() {
-        return contraseña;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setContraseña(String contraseña) {
-        this.contraseña = contraseña;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public String getEmail() {
-        return email;
+    public String getApellido() {
+        return apellido;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
 
-    
 }
