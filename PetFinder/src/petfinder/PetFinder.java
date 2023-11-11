@@ -18,6 +18,11 @@ public class PetFinder {
         // TODO code application logic here
         //HOLA MUNDO
         System.out.println("Hola, mundo");
+        System.out.println("Hola, mundo");
+        System.out.println("Hola, mundo");
+        System.out.println("Hola, mundo");
+        System.out.println("Hola, mundo");
+        
     }
     
 }
